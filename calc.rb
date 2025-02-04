@@ -4,7 +4,7 @@
 # An interactive command-line interface to the Google Calculator.
 #
 # == License
-# Copyright (C) 2009 Chris Biagini <firstname DOT lastname AT gmail DOT com>.
+# Copyright (C) 2009-2025 Chris Biagini <firstname DOT lastname AT gmail DOT com>.
 # All rights reserved.
 # 
 # Redistribution and use in source and binary forms, with or without
