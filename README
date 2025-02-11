@@ -1,37 +1,3 @@
 (This is a work in progress!)
 
-An interactive command-line calculator.
-
-Enter an expression to evaluate. Previous results are stored in variables
-starting at <code>$1</code>, and variables are automatically substituted
-when used in expressions. If variables are interfering with expressions
-like <code>$5 in UK pounds</code>, prefix the number with a space.
-
-To name a variable yourself, use the <code>=</code> operator, like so:
-<code>$name = 3.14</code>. Variable names can be any combination of letters, 
-numbers, and "_", and the value you assign can be any expression. The 
-expression will be evaluated before the assignment occurs, but you can 
-override this by including a <code><</code> character before the equals 
-sign, thusly: <code>$name <= 5</code>.
-
-To save the current contents of memory, type <code>save [name]</code>. If
-the name is omitted, memory will be saved to a default file. Memory
-files are saved in YAML format, under the <code>.cli-calc</code> directory in
-your home directory.
-
-To load a saved memory file, type <code>restore [name]</code>. If the file
-is omitted, memory will be loaded from the default location. The contents of
-the file will replace the current contents of memory.
-
-For other commands, type "help" inside the program.
-
-Bash-like command completion, line editing, and history are available
-through the Readline library. Completion targets are stored at the end of
-the source file if you want to change them. Variables and save file names
-are also provided for completion.
-
-If you're behind a proxy, be sure the <code>http_proxy</code> environment
-variable is set.
-
-Use the <code>-h</code> flag when starting the program for a full list of
-command-line options.
+An interactive command-line calculator. Formerly, this was a wrapper around Google's calculator; now, it will be a wrapper around [Dentaku](https://github.com/rubysolo/dentaku).

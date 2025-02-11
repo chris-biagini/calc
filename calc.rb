@@ -1,10 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'optparse'
-require 'uri'
 require "yaml"
 require "fileutils"
-require 'open-uri'
 require 'readline'
 require 'dentaku'
 
